@@ -14,7 +14,7 @@ namespace OOP_ukol2
         private double ujetoCelkem;
         private DateTime okamzikRozjezdu;
         private DateTime dobaJizdyCelkem;
-        private bool Jede;
+        private bool Jede { get; set; }
 
         public Auto(string znacka, double spotreba)
         {
